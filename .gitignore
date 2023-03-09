@@ -1,0 +1,27 @@
+# arquivos gerados pelo sistema operacional
+.DS_Store
+
+# arquivos gerados pelo editor
+*.swp
+*~
+*.log
+
+# dependências do npm
+node_modules/
+package-lock.json
+
+# arquivos de construção de produção
+/dist/
+/build/
+
+# ambiente de desenvolvimento
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# outros arquivos gerados pelo Vue CLI
+/coverage/
+/.idea/
+/*.iml
+/vue.config.js
